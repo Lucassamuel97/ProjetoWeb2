@@ -57,16 +57,14 @@ footer.page-footer {
 }
 
 /*#### carrousel*/
-
-
 .img1{
-  background-image: url('../img/img1.jpg');
+  background-image: url('../img/teste.jpg');
 }
 .img2{
-  background-image: url('../img/imgteste.jpg');
+  background-image: url('../img/img22.jpg');
 }
 .img3{
-  background-image: url('../img/img.png');
+  background-image: url('../img/img1.jpg');
 }
 .imgresponsive{
      background-size: cover; /*Css padrão*/
@@ -77,4 +75,35 @@ footer.page-footer {
 }
 .carousel-slider{
   height: 575px;
+}
+
+.descricao{
+  padding: 1em;
+  border-bottom: solid 1px black;
+}
+.material-icons{
+  z-index: -115;
+}
+.fundo_sport{
+  background: url('../img/products/esportivo.jpg') no-repeat center center fixed;
+  background-size: cover; /*Css padrão*/
+}
+.fundo_sedan{
+  background: url('../img/products/sedan.jpg') no-repeat center center fixed;
+  background-size: cover; /*Css padrão*/
+}
+.fundo_suv{
+  background: url('../img/products/esport.jpg') no-repeat center center fixed;
+  background-size: cover; /*Css padrão*/
+}
+.corrida{
+  background: url('../img/products/corrida.jpg') no-repeat center center fixed;
+  background-size: cover; /*Css padrão*/
+}
+.trasparent{
+  background-color: transparent;
+}
+
+.logo{
+  width: 2.7em;
 }
