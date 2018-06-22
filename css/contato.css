@@ -1,0 +1,68 @@
+body {
+    background-image: url(../img/fundo_contato.jpg);
+}
+
+.btn {
+    padding-bottom: px;
+}
+
+.form {
+    background-color: rgba(50, 50, 50, 0.9);
+    font-family: Comic Sans MS;
+}
+
+h1 {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    border: none;
+    font: normal 80px/1 "Comic Sans MS", cursive, sans-serif;
+    color: rgba(255, 255, 255, 1);
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    text-shadow: 4px 4px 6px rgba(0, 3, 5, 0.91);
+    text-align: center;
+}
+
+.icon {
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.7);
+    z-index: 1000;
+}
+
+i {
+    font-size: 40px;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.centro {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -50px;
+    float: left;
+}
+
+#confirma {
+    position: relative;
+    margin: 5 auto;
+    top: -600px;
+    background-color: rgba(50, 50, 50, 0.9);
+    font-family: Comic Sans MS;
+    color: rgba(255, 255, 255, 1);
+}
+
+.progress {
+    width: 400px;
+}
+
+input {
+    font-family: Comic Sans MS;
+    font-size: 18px;
+}

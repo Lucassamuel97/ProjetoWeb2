@@ -1,109 +1,155 @@
 nav ul a,
 nav .brand-logo {
-  color: #444;
+    color: #444;
 }
 
 p {
-  line-height: 2rem;
+    line-height: 2rem;
 }
 
 .sidenav-trigger {
-  color: #26a69a;
+    color: #26a69a;
 }
 
-#index-banner{
-  min-height: 570px;
+#index-banner {
+    min-height: 570px;
 }
 
 .parallax-container {
-  min-height: 380px;
-  line-height: 0;
-  height: auto;
-  color: rgba(255,255,255,.9);
+    min-height: 380px;
+    line-height: 0;
+    height: auto;
+    color: rgba(255, 255, 255, .9);
 }
-  .parallax-container .section {
+
+.parallax-container .section {
     width: 100%;
-  }
-
-@media only screen and (max-width : 992px) {
-  .parallax-container .section {
-    position: absolute;
-    top: 40%;
-  }
-  #index-banner .section {
-    top: 10%;
-  }
 }
 
-@media only screen and (max-width : 600px) {
-  #index-banner .section {
-    top: 0;
-  }
+@media only screen and (max-width: 992px) {
+    .parallax-container .section {
+        position: absolute;
+        top: 40%;
+    }
+    #index-banner .section {
+        top: 10%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #index-banner .section {
+        top: 0;
+    }
 }
 
 .icon-block {
-  padding: 0 15px;
+    padding: 0 15px;
 }
+
 .icon-block .material-icons {
-  font-size: inherit;
+    font-size: inherit;
 }
 
 footer.page-footer {
-  margin: 0;
+    margin: 0;
 }
 
-.modelos{
-  width: 130px;
+.modelos {
+    width: 130px;
 }
+
 
 /*#### carrousel*/
-.img1{
-  background-image: url('../img/teste.jpg');
-}
-.img2{
-  background-image: url('../img/img22.jpg');
-}
-.img3{
-  background-image: url('../img/img1.jpg');
-}
-.imgresponsive{
-     background-size: cover; /*Css padrão*/
-    -webkit-background-size: cover; /*Css safari e chrome*/
-    -moz-background-size: cover; /*Css firefox*/
-    -ms-background-size: cover; /*Css IE não use mer#^@%#*/
-    -o-background-size: cover; /*Css Opera*/
-}
-.carousel-slider{
-  height: 575px;
+
+.img1 {
+    background-image: url('../img/teste.jpg');
 }
 
-.descricao{
-  padding: 1em;
-  border-bottom: solid 1px black;
-}
-.material-icons{
-  z-index: -115;
-}
-.fundo_sport{
-  background: url('../img/products/esportivo.jpg') no-repeat center center fixed;
-  background-size: cover; /*Css padrão*/
-}
-.fundo_sedan{
-  background: url('../img/products/sedan.jpg') no-repeat center center fixed;
-  background-size: cover; /*Css padrão*/
-}
-.fundo_suv{
-  background: url('../img/products/esport.jpg') no-repeat center center fixed;
-  background-size: cover; /*Css padrão*/
-}
-.corrida{
-  background: url('../img/products/corrida.jpg') no-repeat center center fixed;
-  background-size: cover; /*Css padrão*/
-}
-.trasparent{
-  background-color: transparent;
+.img2 {
+    background-image: url('../img/img22.jpg');
 }
 
-.logo{
-  width: 2.7em;
+.img3 {
+    background-image: url('../img/img1.jpg');
+}
+
+.imgresponsive {
+    background-size: cover;
+    /*Css padrão*/
+    -webkit-background-size: cover;
+    /*Css safari e chrome*/
+    -moz-background-size: cover;
+    /*Css firefox*/
+    -ms-background-size: cover;
+    /*Css IE não use mer#^@%#*/
+    -o-background-size: cover;
+    /*Css Opera*/
+}
+
+.carousel-slider {
+    height: 575px;
+}
+
+.descricao {
+    padding: 1em;
+    border-bottom: solid 1px black;
+}
+
+.material-icons {
+    z-index: -115;
+}
+
+.fundo_sport {
+    background: url('../img/products/esportivo.jpg') no-repeat center center fixed;
+    background-size: cover;
+    /*Css padrão*/
+}
+
+.fundo_sedan {
+    background: url('../img/products/sedan.jpg') no-repeat center center fixed;
+    background-size: cover;
+    /*Css padrão*/
+}
+
+.fundo_suv {
+    background: url('../img/products/esport.jpg') no-repeat center center fixed;
+    background-size: cover;
+    /*Css padrão*/
+}
+
+.corrida {
+    background: url('../img/products/corrida.jpg') no-repeat center center fixed;
+    background-size: cover;
+    /*Css padrão*/
+}
+
+.detalhes {
+    background: url('../img/products/corrida.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.trasparent {
+    background-color: transparent;
+}
+
+.logo {
+    width: 2.7em;
+}
+
+.descricao img {
+    width: 75px;
+    height: 75px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #F4F4F4;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    background: #F4F4F4;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: dimgrey;
 }

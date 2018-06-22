@@ -4,7 +4,8 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>New Cars</title>
+    <title>LL Multimarcas</title>
+    <link rel="shortcut icon" href="img/logo.png">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
     <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
@@ -96,7 +97,7 @@
                     <h5 class="header col s12 light">Evite problemas no seu verão...</h5>
                 </div>
                 <div class="row center">
-                    <a href="http://turismo.ig.com.br/manual-do-viajante/dicas/2012-04-20/11-dicas-para-uma-viagem-de-carro-perfeita.html" class="btn-large waves-effect waves-light grey darken-3 lighten-1" target="_blanck">Confira essas Dicas</a>
+                    <a onclick="enviarEmail()" href="http://turismo.ig.com.br/manual-do-viajante/dicas/2012-04-20/11-dicas-para-uma-viagem-de-carro-perfeita.html" class="btn-large waves-effect waves-light grey darken-3 lighten-1" target="_blanck">Confira essas Dicas</a>
                 </div>
             </div>
         </div>
@@ -105,21 +106,14 @@
 
     <div class="container">
         <div class="section">
-
-            <div class="row">
-                <div class="col s12 center">
-                    <h3><i class="mdi-content-send brown-text"></i></h3>
-                    <h4>Empresa</h4>
-                    <p class="left-align light">A New Cars é uma empresa que procura atender as exigências do mercado automotivo, sempre buscando inovações, diferenciais e atendimento que supere as expectativas do cliente, do mercado e dos apaixonados por carro.</p>
-
-                    <p class="left-align light">A New Cars oferece seus serviços em Guarapuava. Através de grandes parceiros, como os Bancos Santander, BV Financeira, Itaú, Bradesco, Banco do brasil, UTFPR. A nossa credibilidade perante ao público aumentam ainda mais. O nosso objetivo da é garantir que você seja bem atendido, e ver seu sonho realizado com satisfação.</p>
-                </div>
+            <div class="carousel" id="empresas">
+                <a class="carousel-item" href="#one!"><img src="img/ford.png"></a>
+                <a class="carousel-item" href="#one!"><img src="img/ford.png"></a>
+                <a class="carousel-item" href="#two!"><img src="img/lambo.jpg"></a>
+                <a class="carousel-item" href="#two!"><img src="img/lambo.jpg"></a>
             </div>
-
         </div>
     </div>
-
-
     <div class="parallax-container valign-wrapper">
         <div class="section no-pad-bot">
             <div class="container">
@@ -151,11 +145,11 @@
                 <div class="col l3 s12">
                     <h5 class="white-text">Menu</h5>
                     <ul>
-                        <li><a class="white-text" href="#">Home</a></li>
-                        <li><a class="white-text" href="#">Estoque</a></li>
-                        <li><a class="white-text" href="#">Institucional</a></li>
-                        <li><a class="white-text" href="#">Dicas</a></li>
-                        <li><a class="white-text" href="#">Contato</a></li>
+                        <li><a class="white-text" href="index.html">Home</a></li>
+                        <li><a class="white-text" href="produtos.html">Estoque</a></li>
+                        <li><a class="white-text" href="institucional.html">Institucional</a></li>
+                        <li><a class="white-text" href="http://turismo.ig.com.br/manual-do-viajante/dicas/2012-04-20/11-dicas-para-uma-viagem-de-carro-perfeita.html">Dicas</a></li>
+                        <li><a class="white-text" href="contato.html">Contato</a></li>
                     </ul>
                 </div>
                 <div class="col l3 s12">
@@ -179,7 +173,7 @@
     <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script src="js/materialize.js"></script>
     <script src="js/init.js"></script>
-
+    <script src="js/functions.js"></script>
 </body>
 
 </html>
